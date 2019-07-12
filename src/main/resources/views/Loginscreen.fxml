@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane prefHeight="300.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="views.Loginscreen">
+    <children>
+      <BorderPane prefHeight="300.0" prefWidth="300.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <center>
+              <VBox alignment="CENTER" prefHeight="300.0" prefWidth="300.0" BorderPane.alignment="CENTER">
+                  <Label wrapText="true" text="Informations needed below can be found at Twitter's official website" />
+                  <Label text="Consumer key :" />
+                  <TextField fx:id="consumerkey" />
+                  <Label text="Consumer secret :" />
+                  <TextField fx:id="consumersecret" />
+                  <Label text="Access token :" />
+                  <TextField fx:id="accesstoken" />
+                  <Label text="Access token secret :" />
+                  <TextField fx:id="accesstokensecret" />
+                  <Button fx:id="connect" mnemonicParsing="false" onAction="#connection" text="Connect" />
+              </VBox>
+         </center>
+         <top>
+            <Label text="Welcome to Tweet Sentiment Analysis" BorderPane.alignment="CENTER" />
+         </top>
+      </BorderPane>
+    </children>
+</AnchorPane>

@@ -129,7 +129,6 @@ public class Homescreen {
                                         String oldValue, String newValue) {
                         // change the label text value to the newly selected item.
                         TweetInfo.setText(searchSentiment(newValue));
-                        TweetInfo.setWrapText(true);
                     }
                 });
     }
@@ -147,7 +146,6 @@ public class Homescreen {
                                         String oldValue, String newValue) {
                         // change the label text value to the newly selected item.
                         TweetInfo.setText(searchSentiment(newValue));
-                        TweetInfo.setWrapText(true);
                     }
                 });
     }

@@ -32,7 +32,7 @@
                 <ListView fx:id="TweetsList" prefHeight="600.0" prefWidth="600.0" BorderPane.alignment="CENTER" />
             </center>
             <right>
-                <TextArea fx:id="TweetInfo" prefHeight="600.0" prefWidth="500.0" text="Nothing selected." BorderPane.alignment="CENTER" />
+                <TextArea wrapText="true" fx:id="TweetInfo" prefHeight="600.0" prefWidth="500.0" text="Nothing selected." BorderPane.alignment="CENTER" />
             </right>
         </BorderPane>
     </children>
